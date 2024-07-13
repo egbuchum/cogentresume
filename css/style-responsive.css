@@ -14,12 +14,41 @@
         background-color: var(--blue);
         left: 0;
         top: 0;
-        width: 100%;
+        width: 80%;
         height: 100vh;
+        margin: 10px;
     }
 
+#menuClose{
+    color: #fff;
+    background: red;
+    margin: 0;
+    float: right;
+    padding: 10px;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+
+nav ul{
+    margin-top: 50px;
+    margin-left: 0;
+    padding: 0;
+}
     nav li{
         display: block;
+        padding: 10px 0;
+    }
+
+    nav li:last-child {
+        margin-left: 0;
+        padding: 10px 10px;
+        width: 30%;
+        margin: 20px 0;
+    }
+
+    nav li a{
+        font-size: 21px;
     }
 
     nav{
@@ -33,5 +62,38 @@
     .breadcrum .material-icons{
         display: block;
     }
-    
+
+    .brand-details a {
+        grid-template-columns: 12% 1fr;
+    }
+
+    #hero, .aboutus-content, .services-section {
+        flex-direction: column;
+    }
+
+    .hero-image{
+        display: none;
+    }
+
+    #hero .hero-content h2 {
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #hero .hero-content p {
+        text-align: center;
+    }
+
+    .hero-btn{
+        text-align: center;
+    }
+    .extra-items {
+        flex-basis: 45%;
+    }
+
+    .services-order {
+        grid-template-columns: 100%;
+    }
+  
 }
