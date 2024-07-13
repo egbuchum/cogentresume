@@ -14,8 +14,11 @@
     color: var(--white);
     font-size: 35px;
     display: none;
+    text-align: center  
+  }
+
+  .breadcrum{
     flex-basis: 30%;
-    text-align: center;
   }
 
   #menuClose{
