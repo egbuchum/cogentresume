@@ -27,6 +27,7 @@
     padding: 10px;
     font-size: 32px;
     cursor: pointer;
+    font-display: block;
 }
 
 
@@ -67,8 +68,12 @@ nav ul{
         grid-template-columns: 12% 1fr;
     }
 
-    #hero, .aboutus-content, .services-section {
+    #hero, .aboutus-content, .services-section,.review {
         flex-direction: column;
+    }
+
+    #hero{
+        height: auto;
     }
 
     .hero-image{
@@ -94,6 +99,28 @@ nav ul{
 
     .services-order {
         grid-template-columns: 100%;
+    }
+
+    .customer { 
+        flex-direction: column;
+        position: static;
+
+    }
+
+    .review{   
+    gap: 0;
+    border: none;
+    padding-left: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    }
+
+    .review-writeup{
+        text-align: center;
+    }
+
+    .image-card {
+        justify-content: center;
     }
   
 }
