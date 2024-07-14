@@ -23,7 +23,7 @@
 <body>
     <div class="main-wrapper"> <!-- content wrapper -->
 
-<!-- header starts here -->
+        <!-- header starts here -->
         <header>
             <div class="brand-details">
                 <a href="index.html">
@@ -46,12 +46,12 @@
                 </ul>
             </nav>
             <div class="breadcrum"><span class="material-icons" id="menuOpen">
-                menu
+                    menu
                 </span>
             </div>
         </header>
 
-<!-- End of header -->
+        <!-- End of header -->
 
         <main id="home-main">
             <section id="hero">
@@ -491,13 +491,13 @@
         <div class="footer-nav">
             <div class="links-footer">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Our Writer</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Resources</a></li>
-                    <li><a href="">Contact us</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Order Now</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="our-resume-writer.html">Our Writer</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="contact-us.html">Contact us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="order-now.html">Order Now</a></li>
                 </ul>
             </div>
 
@@ -527,30 +527,7 @@
 
         splide.mount();
     </script>
-
-    <script>
-        function toggleAnswer(element) {
-            const answer = element.nextElementSibling;
-            answer.style.display = answer.style.display === "block" ? "none" : "block";
-        }
-
-        let menu = document.getElementById("menuOpen");
-        let menuClose = document.getElementById("menuClose");
-        let navBar = document.getElementById("navBar");
-        let menuIsOpen = false;
-
-        menu.addEventListener("click", () =>{
-            navBar.classList.add("openCloseMenu");
-            menuIsOpen = true;
-        });
-
-      menuClose.addEventListener("click", () =>{
-          if(menuIsOpen){
-            navBar.classList.remove("openCloseMenu");
-            menuIsOpen = false;
-        }
-      });
-    </script>
+    <script src="script/script.js"></script>
 </body>
 
 </html>

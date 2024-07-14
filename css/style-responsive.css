@@ -5,10 +5,10 @@
     --blue: #29ABE2;
     --white: #FFFFFF;
     --black: #000000;
-  }
+}
 
-@media screen and (max-width: 768px){
-    .openCloseMenu{
+@media screen and (max-width: 768px) {
+    .openCloseMenu {
         display: block;
         position: fixed;
         background-color: var(--blue);
@@ -19,24 +19,30 @@
         margin: 10px;
     }
 
-#menuClose{
-    color: #fff;
-    background: red;
-    margin: 0;
-    float: right;
-    padding: 10px;
-    font-size: 32px;
-    cursor: pointer;
-    display: block;
-}
+
+    .breadcrum {
+        flex-basis: 30%;
+    }
+
+    #menuClose {
+        color: #fff;
+        background: red;
+        margin: 0;
+        float: right;
+        padding: 10px;
+        font-size: 32px;
+        cursor: pointer;
+        display: block;
+    }
 
 
-nav ul{
-    margin-top: 50px;
-    margin-left: 0;
-    padding: 0;
-}
-    nav li{
+    nav ul {
+        margin-top: 50px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    nav li {
         display: block;
         padding: 10px 0;
     }
@@ -48,11 +54,11 @@ nav ul{
         margin: 20px 0;
     }
 
-    nav li a{
+    nav li a {
         font-size: 21px;
     }
 
-    nav{
+    nav {
         display: none;
     }
 
@@ -60,7 +66,7 @@ nav ul{
         flex-basis: 70%;
     }
 
-    .breadcrum .material-icons{
+    .breadcrum .material-icons {
         display: block;
     }
 
@@ -68,15 +74,18 @@ nav ul{
         grid-template-columns: 12% 1fr;
     }
 
-    #hero, .aboutus-content, .services-section,.review {
+    #hero,
+    .aboutus-content,
+    .services-section,
+    .review {
         flex-direction: column;
     }
 
-    #hero{
+    #hero {
         height: auto;
     }
 
-    .hero-image{
+    .hero-image {
         display: none;
     }
 
@@ -90,9 +99,10 @@ nav ul{
         text-align: center;
     }
 
-    .hero-btn{
+    .hero-btn {
         text-align: center;
     }
+
     .extra-items {
         flex-basis: 45%;
     }
@@ -101,21 +111,21 @@ nav ul{
         grid-template-columns: 100%;
     }
 
-    .customer { 
+    .customer {
         flex-direction: column;
         position: static;
 
     }
 
-    .review{   
-    gap: 0;
-    border: none;
-    padding-left: 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    .review {
+        gap: 0;
+        border: none;
+        padding-left: 0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
     }
 
-    .review-writeup{
+    .review-writeup {
         text-align: center;
     }
 
@@ -130,16 +140,58 @@ nav ul{
     .links-footer ul {
         flex-wrap: wrap;
     }
-  
+
+    .blog-hero h1 {
+        font-size: 45px;
+        margin: 5px 0;
+    }
+
+    .blog-hero p {
+        width: 90%;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+
+    .card-wrap {
+        flex-direction: column;
+    }
+
+    .blog__image img {
+        height: 200px;
+    }
+
+    .blogs h1 {
+        font-size: 16px;
+    }
+
+    .form-section h1 {
+        font-size: 25px;
+    }
+
+    .form-section h2 {
+        font-size: 18px;
+
+    }
+
+    .contact-image img {
+        border-radius: 300px;
+    }
+
+    .contact-hero {
+        align-items: flex-start;
+
+    }
+
 }
 
 
 @media screen and (max-width: 570px) {
-    .main-container{
+    .main-container {
         margin: 3%;
     }
 
-    .extra-details, .how-it-work-wrapper {
+    .extra-details,
+    .how-it-work-wrapper {
         flex-direction: column;
     }
 
@@ -148,43 +200,60 @@ nav ul{
         top: -80px;
     }
 
-.how-it-work-wrapper{
-    margin-bottom: 80px;
+    .how-it-work-wrapper {
+        margin-bottom: 80px;
 
-}
+    }
+
     .how-it-work-card {
         width: 100%;
     }
 
 
-.how-it-works h2 {
+    .how-it-works h2 {
 
-    margin: 70px 0 20px 0;
-}
+        margin: 70px 0 20px 0;
+    }
 
-.review{
-    width: 90%;
-}
+    .review {
+        width: 90%;
+    }
 
-.image-card {
-    gap: 20px;
+    .image-card {
+        gap: 20px;
 
-}
+    }
 
-.newsletter {
-    padding: 20px 3%;
-    text-align: center;
-}
+    .newsletter {
+        padding: 20px 3%;
+        text-align: center;
+    }
 
-.newsletter input[type="text"] {
-    width: 100%;
-    margin-bottom: 20px;
+    .newsletter input[type="text"] {
+        width: 100%;
+        margin-bottom: 20px;
 
-}
+    }
 
-.openCloseMenu {
-    width: 90%;
-    margin: 0;
-    padding: 20px;
-}
+    .openCloseMenu {
+        width: 90%;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .brand-details a {
+        grid-template-columns: 20% 1fr;
+    }
+
+    .service-list {
+        padding: 10px 0;
+    }
+
+    .contact-hero,.form-group  {
+        flex-direction: column;
+    }
+
+    .form-section h1 {
+        font-size: 20px;
+    }
 }
