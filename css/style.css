@@ -705,7 +705,8 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 8%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 .blog-hero h1 {
@@ -722,8 +723,12 @@ footer {
     margin-bottom: 20px;
 }
 
+.search-box{
+    width: 40%;
+}
+
 .blog-hero input {
-    width: 350px;
+    width: 90%;
     height: 45px;
     border-radius: 7px;
     border: none;
