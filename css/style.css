@@ -267,6 +267,7 @@ nav li:last-child {
 
 }
 
+
 .aboutus-content {
     display: flex;
     align-items: center;
@@ -555,7 +556,7 @@ nav li:last-child {
 }
 
 .customer h3,
-p {
+.customer p {
     margin: 0;
     font-size: 16px;
 }
@@ -909,10 +910,13 @@ footer {
 }
 
 .review-image {
-    width: 150px;
     display: flex;
     margin-top: 20px;
     gap: 40px;
+}
+
+.review-image > div{
+    width: 200px;
 }
 
 .hero-btn ul li span {
@@ -938,6 +942,7 @@ footer {
     padding: 20px;
     flex: 28%;
     border-radius: 7px;
+    position: relative;
 }
 
 .service-card h3 {
@@ -1026,4 +1031,129 @@ font-size: 27px;
 
 .cert--image{
     flex-basis: 40%;
+}
+
+.card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.writers {
+    margin: 0 8%;
+}
+
+.writers h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+.writer-card{
+    box-shadow:  0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+    flex-basis: 28%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    height: 400px;
+}
+
+.writer-names h3{
+font-size: 21px;
+margin-top: 5px;
+margin-bottom: 0;
+color: var(--secondary);
+}
+
+.writer-details{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    border-bottom: 2px solid var(--secondary);
+    padding: 0 0 20px 0;
+    margin-bottom: 15px;
+    align-items: end;
+}
+
+.writer-picture{
+    flex-basis: 35%;
+   
+}
+
+.writer-picture img{
+    border-radius: 50%;
+    border: 2px solid var(--secondary)
+}
+.writer-names h4{
+    font-size: 18px;
+    margin-top: 2px;
+    color: var(--secondary);
+    }
+
+.writer-card p span{
+    font-weight: 600;
+}
+
+.popular--buy{
+    position: absolute;
+    top:5px;
+    right: 0;
+    background-color: var(--secondary);
+    padding: 7px;
+    color: var(--white);
+}
+
+.service-card:nth-child(2){
+    border: 2px solid var(--secondary)
+}
+ 
+.last-section-writer h1{
+color: var(--secondary);
+}
+
+/* resource style sheet */
+
+.resource-writeup h1{
+font-size: 55px;
+}
+
+.resource-writeup p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+.resource-writeup h1 span{
+    color: var(--secondary);
+}
+
+.download-btn{
+    text-align: center;
+}
+
+.download-btn button{
+    background-color: var(--secondary);
+    color: var(--white);
+    border: none;
+    width: 300px;
+    height: 50px;
+    border-radius: 7px;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.text-writeup p{
+   margin-bottom: 70px;
+   line-height: 30px;
+}
+
+.text-writeup h1{
+    color: var(--secondary);
+}
+
+.more-resource ol{
+margin: 0 12px;
+padding: 0;
+}
+
+.more-resource ol li{
+    padding: 20px 10px 0 10px;
 }
