@@ -727,11 +727,7 @@ footer {
     padding-top: 140px;
     height: 300px;
     background-image: linear-gradient(150deg, transparent, #acadb1),
-<<<<<<< HEAD
-        url("../images/hero-bg2.png");
-=======
-        url(../images/hero-bg2.png);
->>>>>>> 81e8a646332a4b0efe669f11faa0d3af1a16530e
+    url("../images/hero-bg2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -975,11 +971,7 @@ footer {
 .service-writeup__ {
     flex-basis: 26%;
     padding: 40px 40px;
-<<<<<<< HEAD
     background-image: url("../images/bg2.png");
-=======
-    background-image: url(../images/bg2.png);
->>>>>>> 81e8a646332a4b0efe669f11faa0d3af1a16530e
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
